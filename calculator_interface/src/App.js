@@ -10,6 +10,7 @@ import {
   AppBar,
   Toolbar
 } from '@mui/material';
+import Calculator from './components/Calculator';
 
 const theme = createTheme({
   palette: {
@@ -112,27 +113,21 @@ function App() {
             variant="subtitle1"
             sx={{ color: '#E87A41', fontWeight: 500 }}
           >
-            AI Workflow Manager Template
+            SimpleCalc Application
           </Typography>
 
           <Typography variant="h1" component="h1">
-            calculator_interface
+            Calculator
           </Typography>
 
           <Typography
             variant="subtitle1"
             sx={{ maxWidth: '600px', mb: 2 }}
           >
-            Start building your application.
+            A simple calculator for basic arithmetic operations
           </Typography>
 
-          <Button
-            variant="contained"
-            color="primary"
-            size="large"
-          >
-            Button
-          </Button>
+          <Calculator />
         </Box>
       </Container>
     </ThemeProvider>

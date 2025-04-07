@@ -1,0 +1,29 @@
+.calculator {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.calculator-display {
+  font-family: 'Digital', 'Courier New', monospace;
+}
+
+.calculator-button {
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.calculator-button:active {
+  transform: scale(0.95);
+}
+
+.operator-button {
+  background-color: #E87A41 !important;
+}
+
+.clear-button {
+  background-color: #d32f2f !important;
+}
+
+.equals-button {
+  background-color: #E87A41 !important;
+}
